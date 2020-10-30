@@ -25,13 +25,9 @@ SECRET_KEY = '^vf#5j&g%1v1_=q3582t73fkkj0gsfn7c_y9hot5lg5p)&y+)3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
-ALLOWED_HOSTS = ['sabyrbekov.pythonanywhere.com']
-=======
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
->>>>>>> 955647670e42cfe4a8df334ace72cfa80c598abc
-
-
+ALLOWED_HOSTS = [
+    '127.0.0.1', '.pythonanywhere.com'
+]
 # Application definition
 
 INSTALLED_APPS = [
